@@ -2,7 +2,7 @@ package com.sparta.d_2026_02_10;
 
 public class P041 {
     public String solution(String s) {
-        int j,k = 0;
+        int j=0,k = 0;
         StringBuilder sb = new StringBuilder();
         String answer = "";
         for(int i = 0; i < s.length(); i++) {
